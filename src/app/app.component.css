@@ -1,0 +1,12 @@
+.navbar{
+    background-color: white;
+}
+#navbarSupportedContent .navbar-nav .nav-link{
+    color:black;
+    font-size:18px;
+}
+
+#navbarSupportedContent .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.navbar ul{margin-left: auto;}

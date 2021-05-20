@@ -1,0 +1,33 @@
+.home img{
+    width: 100%;
+    height: 600px;
+    object-position:center;
+    object-fit: cover;;
+    
+}
+.homecontent{
+    position: absolute;
+top: 60%;
+left: 35%;
+transform: translate(-50%,-50%);
+}
+.homecontent h1{
+    color: white;
+    font-size: 40px;
+   
+}
+.homecontent a{
+    margin-top: 10px;
+}
+@media screen and (max-width:600px)
+{
+    .homecontent h1
+    {
+        font-size: 35px;
+    }
+    .home img
+    { 
+        height: 700px;
+    }
+}
+
